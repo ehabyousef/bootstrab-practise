@@ -1,0 +1,36 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-webkit-overflow-scrolling",
+          "-webkit-text-size-adjust",
+          "-webkit-tap-highlight-color",
+          "text-align: -webkit-match-parent",
+          "text-decoration-skip-ink",
+          "text-underline-offset",
+          "overflow-anchor"
+        ]
+      }
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "button-name": "off",
+        "link-name": "off"
+      }
+    ],
+    "no-inline-styles": "off",
+    "axe/structure": [
+      "default",
+      {
+        "listitem": "off"
+      }
+    ],
+    "detect-css-reflows/composite": "off"
+  }
+}
