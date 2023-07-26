@@ -11,7 +11,7 @@ if (localStorage.getItem("isSmall") === "no") {
 } else {
 }
 
-function in() {
+function min() {
   localStorage.setItem("isSmall", "no");
   xmark.classList.toggle("hide");
   fun.classList.toggle("fufu");
